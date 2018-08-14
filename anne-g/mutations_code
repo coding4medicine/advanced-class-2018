@@ -6,10 +6,12 @@ f=open("/share/data/ancestry/asia", "r")
 sequence=f.readline()
 
 for i in range(51):
-    sequenceLocation = random.randint(1, 1850)
+    sequenceLocation = random.randint(1, len(sequence))
     string.letters = "ATGC"
     newBase = random.choice(string.letters)
     sequence = sequence[:sequenceLocation] + newBase + sequence[sequenceLocation
 +1:]
 
 print sequence
+
+#if you make sequence a list you can replace the char without the complicated concatenation here
