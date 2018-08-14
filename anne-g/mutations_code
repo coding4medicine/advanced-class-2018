@@ -13,3 +13,5 @@ for i in range(51):
 +1:]
 
 print sequence
+
+#if you make sequence a list you can replace the char without the complicated concatenation here
