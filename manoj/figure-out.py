@@ -1,6 +1,9 @@
 ##########################################
-#	check ancestry of given sequence
+#	check ancestry of the unknown 
+#       sequence by comparing with
+#	known sequences
 ##########################################
+
 
 f=open("asia","r")
 asia=f.readline()
@@ -18,15 +21,29 @@ f=open("europe","r")
 europe=f.readline()
 f.close()
 
+# Load unknown sequence
+
 f=open("find.txt","r")
 given=f.readline()
 f.close()
 
-# four count vecto
+#
+# four counters
+#
+
 ca=0
 cf=0
 cs=0
 ce=0
+
+# Compare each position of unknown 
+# sequence with the corresponding
+# position of the known sequences.
+# 
+# Increment counter, if their is
+# difference.
+
+
 for i in range(len(given)):
 	if(given[i]!=asia[i]): ca+=1
 	if(given[i]!=africa[i]): cf+=1
