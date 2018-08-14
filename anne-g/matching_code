@@ -1,0 +1,37 @@
+matchesAsia = 0
+matchesEurope = 0
+matchesAfrica = 0
+matchesAmerica = 0
+
+f=open("share/data/ancestry/asia", "r")
+asiaSequence=f.readline()
+
+f=open("/share/data/ancestry/europe", "r")
+europeSequence=f.readline()
+
+f=open("/share/data/ancestry/africa", "r")
+africaSequence=f.readline()
+
+f=open("/share/data/ancestry/south-america", "r")
+americaSequence=f.readline()
+
+f=open("/share/data/ancestry/find.txt", "r")
+HumanSequencel=f.readline()
+
+for location in range():
+    if asia[location] == humanSequence[location]:
+        matchesAsia = matchesAsia  + 1
+    else:
+        matchesAsia = matchesAsia
+
+for location in range():
+    if europe[location] == humanSequence[location]:
+        matchesEurope = matchesEurope + 1
+    else:
+        matchesEurope = matchesEurope
+
+for location in range():
+    if europe[location] == humanSequence[location]:
+        matchesAfrica = matchesAfrica + 1
+    else:
+        matchesAfrica = matchesAfrica
