@@ -17,5 +17,4 @@ for i in indices:
     char = characters[charindex]
     str[i] = char
     charindex = charindex + 1 
-finalstr = "".join(str) 
-print(finalstr)
+finalstr = "".join(str)
