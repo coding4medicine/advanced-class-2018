@@ -3,47 +3,39 @@ matchesEurope = 0
 matchesAfrica = 0
 matchesAmerica = 0
 
-f=open("share/data/ancestry/asia", "r")
-asiaSequence=f.readline()
+human=open("/share/data/ancestry/find.txt", "r")
+humanLine=human.readline()
 
-f=open("/share/data/ancestry/europe", "r")
-europeSequence=f.readline()
 
-f=open("/share/data/ancestry/africa", "r")
-africaSequence=f.readline()
+asia=open("/share/data/ancestry/asia", "r")
+asiaLine=asia.readline()
 
-f=open("/share/data/ancestry/south-america", "r")
-americaSequence=f.readline()
+europe=open("/share/data/ancestry/europe", "r")
+europeLine=europe.readline()
 
-f=open("/share/data/ancestry/find.txt", "r")
-HumanSequencel=f.readline()
+africa=open("/share/data/ancestry/africa", "r")
+africaLine=africa.readline()
 
-for location in range():
-    if asia[location] == humanSequence[location]:
+samerica=open("/share/data/ancestry/south-america", "r")
+samericaLine=samerica.readline()
+
+for location in range(0, len(humanLine) - 1):
+    if asiaLine[location] == humanLine[location]:
         matchesAsia = matchesAsia  + 1
-    else:
-        matchesAsia = matchesAsia
 
-for location in range():
-    if europe[location] == humanSequence[location]:
+for location in range(0, len(humanLine) - 1):
+    if europeLine[location] == humanLine[location]:
         matchesEurope = matchesEurope + 1
-    else:
-        matchesEurope = matchesEurope
 
-for location in range():
-    if europe[location] == humanSequence[location]:
+for location in range(0, len(humanLine) - 1):
+    if africaLine[location] == humanLine[location]:
         matchesAfrica = matchesAfrica + 1
-    else:
-        matchesAfrica = matchesAfrica
-        
-for location in range():
-    if america[location] == humanSequence[location]:
+
+for location in range(0, len(humanLine) - 1):
+    if samericaLine[location] == humanLine[location]:
         matchesAmerica = matchesAmerica + 1
-    else:
-        matchesAmerica = matchesAmerica
-
-
-print matchesAsia
-print matchesEurope
-print matchesAfrica
-print matchesAmerica
+    
+print "Asia matches = ", matchesAsia
+print "Europe matches = ", matchesEurope
+print "Africa matches = ", matchesAfrica
+print "America matches = ", matchesAmerica
