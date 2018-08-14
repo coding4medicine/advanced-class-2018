@@ -1,0 +1,14 @@
+import random
+
+gene = open("/share/data/ancestry/africa")
+x = gene.readline()
+x = list(x)
+z = ["A", "C", "G", "T"]
+secure_random =random.SystemRandom()
+
+
+for letter in range (50):
+    y = random.randint(0, len(x) - 1)
+    k = secure_random.choice(z)
+    x[y] = k
+print "".join(x)

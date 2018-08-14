@@ -35,3 +35,15 @@ for location in range():
         matchesAfrica = matchesAfrica + 1
     else:
         matchesAfrica = matchesAfrica
+        
+for location in range():
+    if america[location] == humanSequence[location]:
+        matchesAmerica = matchesAmerica + 1
+    else:
+        matchesAmerica = matchesAmerica
+
+
+print matchesAsia
+print matchesEurope
+print matchesAfrica
+print matchesAmerica
