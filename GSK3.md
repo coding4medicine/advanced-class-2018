@@ -8,9 +8,6 @@ The rcsb site also allows you to look at a 3-D version or check for sequence and
 There are proteins available that have additional complexes with them, e.g. inhibitors
 
 <<<<<<< HEAD
-# Function
-The purpose of the GSK3 protein is to help insulin regulate the synthesis of glycogen. Glycogen is a large polysaccharide(sugar) which the body uses for energy.
-GSK3 inhibits GYS1 activity which helps regulate the creation of glycogen.
 =======
 # Its purpose
 GSK3 is an enzyme that aids in the metabolism of glycogen. It was later found to play an important part in cell division/mitosis. 
