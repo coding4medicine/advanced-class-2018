@@ -7,7 +7,6 @@ You can find the structure of the protein at this link: http://www.rcsb.org/stru
 The rcsb site also allows you to look at a 3-D version or check for sequence and structural similarity.
 There are proteins available that have additional complexes with them, e.g. inhibitors
 
-<<<<<<< HEAD
 =======
 # Its purpose
 GSK3 is an enzyme that aids in the metabolism of glycogen. It was later found to play an important part in cell division/mitosis. 
